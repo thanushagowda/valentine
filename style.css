@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #fde2e4, #e0c3fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    animation: pop 0.8s ease;
+  }
+  
+  h1 {
+    color: #ff7aa2;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    position: relative;
+    height: 60px;
+  }
+  
+  button {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #yes {
+    background: #ff7aa2;
+    color: white;
+  }
+  
+  #no {
+    background: #ffd6e0;
+    position: absolute;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes pop {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  
+  /* yay screen */
+  .yay {
+    font-size: 40px;
+    color: #ff7aa2;
+  }
+
+  .sticker {
+    width: 260px;       /* BIGGER image */
+    margin-top: 25px;
+    border-radius: 15px;
+  }
+  
+  
