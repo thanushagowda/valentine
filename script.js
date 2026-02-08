@@ -15,7 +15,7 @@ yesBtn.onclick = () => {
     card.innerHTML = `
       <div class="yay">YAYYYY 😛😛😛</div>
       <img 
-        src="sticker.JPG" 
+        src="sticker.jpg" 
         class="sticker"
         alt="cute sticker"
       />
